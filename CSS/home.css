@@ -2,3 +2,26 @@
     width: 50px;
     height: 50px;
 }
+nav{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #fd79a8;
+    height: 50px;
+}
+nav>ul>li>a{
+    display: block;
+    line-height: 40px;
+    text-decoration: none;
+    font-variant: small-caps;
+    padding-left: 25px;
+    color: #ffffff;
+}
+nav>ul>li>a:hover{
+    color: #ffffff;
+    font-weight: bolder;
+}
+ul>li{
+    float: left;
+    margin: opx 5px;
+}
